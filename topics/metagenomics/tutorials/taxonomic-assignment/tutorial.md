@@ -1,7 +1,39 @@
 # Taxonomic Assignment Tutorial
+---
+layout: tutorial_hands_on
+
+title: Taxonomic Assignment with Kraken2
+zenodo_link: still needs to be created
+questions:
+- Which species are present in my sample?
+objectives:
+- Use Kraken2 to assign taxonomic labels
+- Use Krona to visualize results of assignment
+time_estimation: 30min
+key_points:
+- We learned to use Kraken2 to assign taxonomic labels
+- We learned to use Krona to understand the results
+contributors:
+- Sophia
+
+---
 # Introduction
 
-Taxonomic Assignment is one step of analyzing metagenomics data. It is about identifying the taxon, to which an individual read belongs to. In general, this works via comparing reads to a database, which can be done in different ways. For this tutorial, we will use Kraken2, an algorithm that breaks databases as well as reads into k-mers for comparison, to reduce memory consumption and processing time. 
+Metagenomic samples contain DNA from different organisms at a specific space, where the sample was collected. This space can be soil, water or the human gut for example. Either way, the aim is to find out which organisms coexist in that niche. Therefore, taxonomic assignment is one step of analyzing metagenomics data. It is about identifying the taxon, to which an individual read belongs to. In the end, you derive a list of species that are present in the sample, of which DNA was sequenced and could be classified. In general, this works via comparing reads to a database, which can be done in different ways. For this tutorial, we will use Kraken2, an algorithm that breaks databases as well as reads into k-mers for comparison, to reduce memory consumption and processing time.
+
+![Kraken functionality](../../images/taxonomic-assignment/Kraken_algorithm.PNG "Kraken functionality.")  xxx citation
+
+The original algorithm was then developed further to obtain Kraken2, which will be used for this tutorial. The advantages are ... xxx
+
+> ### Agenda
+>
+> In this tutorial, we will cover:
+>
+> 1.[TOC]
+> 
+>
+{: .agenda}
+
 
 # Background on data
 
@@ -31,12 +63,10 @@ For this tutorial, we will use the Standard plus protozoa & fungi (2021) databas
 {: .hands_on}
 
 
-Kraken2 will create two output files called "Classification" and "Report". 
-
-
-![Kraken2 Classification Output](../../images/taxonomic-assignment/Kraken2 classification screenshot.PNG "Kraken2 Classification Output.")
+Kraken2 will create two output files called "Classification" and "Report".
 
 Let's have a look at the classification file. (xxx add image) It has 5 columns:
+
 1. C/U: classified/unclassified
 2. Sequence ID
 3. Taxonomy ID
@@ -44,11 +74,14 @@ Let's have a look at the classification file. (xxx add image) It has 5 columns:
 5. indicates LCA mapping of each k-mer in the sequence |:| indicates end of first read, start of second read for paired reads --> example: "n k-mers assigned to taxon xxx"
 
 
-![Kraken2 Report Output](../../images/taxonomic-assignment/Kraken2 report screenshot.PNG "Kraken2 Report Output.")
+![Kraken2 Classification Output](../../images/taxonomic-assignment/Kraken2_classification_screenshot.PNG "Kraken2 Classification Output.")
+
 
 Let's also have a look at the report file. (xxx add image) It has 2 columns:
 1. taxon name grouped into d_domain, p_phylum, c_class, o_order, f_family, g_genus, s_species
 2. number of reads assigned to specific taxon
+
+![Kraken2 Report Output](../../images/taxonomic-assignment/Kraken2_report_screenshot.PNG "Kraken2 Report Output.")
 
 As both files are not very well readable, we will use __Krona__ to visualize the data.
 
@@ -85,3 +118,20 @@ __Krona__ allows hierarchical data to be explored with zooming, multi-layered pi
  
 
 Let's take a look at the [result](https://usegalaxy.eu/datasets/4838ba20a6d86765e92bccb62d7f6daa/display/?preview=True&dataset=0&node=0&collapse=true&color=false&depth=8&font=11&key=true). Using the search bar we can check if certain taxa are present.
+
+
+> ### {% icon question %} Questions
+>
+> How many percent of the bacteria consists of the genus "paracoccus"?
+> 
+>
+> > ### {% icon solution %} Solution
+> >
+> > 6 %.
+> 
+> {: .solution}
+>
+{: .question}
+
+# Conclusion
+In this tutorial we used Kraken2 to do taxonomic assignment of a metagenomic sample and Krona to visualize the results.  
