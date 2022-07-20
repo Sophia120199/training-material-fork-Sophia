@@ -31,12 +31,20 @@ For this tutorial, we will use the Standard plus protozoa & fungi (2021) databas
 {: .hands_on}
 
 
-Kraken2 will create two output files called "Classification" and "Report". Let's have a look at the classification file. (xxx add image) It has 5 columns:
+Kraken2 will create two output files called "Classification" and "Report". 
+
+
+![Kraken2 Classification Output](../../images/taxonomic-assignment/Kraken2 classification screenshot.PNG "Kraken2 Classification Output.")
+
+Let's have a look at the classification file. (xxx add image) It has 5 columns:
 1. C/U: classified/unclassified
 2. Sequence ID
 3. Taxonomy ID
 4. Length of sequence (read1|read2 for paired reads)
 5. indicates LCA mapping of each k-mer in the sequence |:| indicates end of first read, start of second read for paired reads --> example: "n k-mers assigned to taxon xxx"
+
+
+![Kraken2 Report Output](../../images/taxonomic-assignment/Kraken2 report screenshot.PNG "Kraken2 Report Output.")
 
 Let's also have a look at the report file. (xxx add image) It has 2 columns:
 1. taxon name grouped into d_domain, p_phylum, c_class, o_order, f_family, g_genus, s_species
@@ -52,9 +60,28 @@ Once we have assigned the corresponding taxa to each sequence, the next step is 
  
 __Convert Kraken__ tool is designed to translate results of the Kraken metagenomic classifier (see citations below) to the full representation of NCBI taxonomy. It does so by using Taxonomic ID field provided by Kraken. The output of this tool can be directly visualized by the Krona tool.
 
+> ### {% icon hands_on %} Hands-on: Convert Kraken2 Output
+>
+> 1. {% tool [Convert Kraken](xxx) %} with the following parameters:
+>    - *"Choose dataset to convert"*: Classification Output of Kraken2
+>    - *"Select a taxonomy database"*: `2022-03-08`
+>    - *"Read name"*: `column:2`
+>    - *"Taxonomy ID field"*: `column:3`
+>
+{: .hands_on}
+
+
 ## Visualize the taxonomical classification with Krona
  
 __Krona__ allows hierarchical data to be explored with zooming, multi-layered pie charts. With this tool, we can easily visualize the composition of the bacterial communities and compare how the populations of microorganisms are modified according to the conditions of the environment.
+
+> ### {% icon hands_on %} Hands-on: Visualize data with Krona
+>
+> 1. {% tool [Krona pie chart](xxx) %} with the following parameters:
+>    - *"Type of input data"*: `taxonomy`
+>    - *"Input file"*: Output file of Convert Kraken
+>
+{: .hands_on}
  
 
-Let's take a look at the result. Using the search bar we can check if certain taxa are present.
+Let's take a look at the [result](https://usegalaxy.eu/datasets/4838ba20a6d86765e92bccb62d7f6daa/display/?preview=True&dataset=0&node=0&collapse=true&color=false&depth=8&font=11&key=true). Using the search bar we can check if certain taxa are present.
