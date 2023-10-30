@@ -260,11 +260,6 @@
             "url": "https://usegalaxy.org",
             "name": "UseGalaxy.org (Main)",
             "usegalaxy": "true"
-          },
-          {
-            "url": "https://usegalaxy.org.au",
-            "name": "UseGalaxy.org.au",
-            "usegalaxy": "true"
           }
         ],
         "inexact": [
@@ -2207,6 +2202,10 @@
             "url": "https://galaxy.hyphy.org/",
             "name": "HyPhy HIV NGS Tools",
             "usegalaxy": "false"
+          },
+          {
+            "url": "https://galaxy.bio.di.uminho.pt/",
+            "name": "PhagePromotor"
           }
         ]
       },
