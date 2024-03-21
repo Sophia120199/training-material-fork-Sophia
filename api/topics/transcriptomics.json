@@ -246,6 +246,11 @@
         ],
         "inexact": [
           {
+            "url": "https://galaxy.metacentrum.cz/",
+            "name": "MetaCentrum",
+            "usegalaxy": "false"
+          },
+          {
             "url": "https://usegalaxy.no/",
             "name": "UseGalaxy.no",
             "usegalaxy": "true"
@@ -397,6 +402,11 @@
           }
         ],
         "inexact": [
+          {
+            "url": "https://galaxy.metacentrum.cz/",
+            "name": "MetaCentrum",
+            "usegalaxy": "false"
+          },
           {
             "url": "https://usegalaxy.no/",
             "name": "UseGalaxy.no",
@@ -636,6 +646,11 @@
           }
         ],
         "inexact": [
+          {
+            "url": "https://galaxy.metacentrum.cz/",
+            "name": "MetaCentrum",
+            "usegalaxy": "false"
+          },
           {
             "url": "https://usegalaxy.fr/",
             "name": "UseGalaxy.fr",
@@ -909,6 +924,11 @@
         ],
         "inexact": [
           {
+            "url": "https://galaxy.metacentrum.cz/",
+            "name": "MetaCentrum",
+            "usegalaxy": "false"
+          },
+          {
             "url": "https://usegalaxy.no/",
             "name": "UseGalaxy.no",
             "usegalaxy": "true"
@@ -1101,6 +1121,11 @@
         ],
         "inexact": [
           {
+            "url": "https://galaxy.metacentrum.cz/",
+            "name": "MetaCentrum",
+            "usegalaxy": "false"
+          },
+          {
             "url": "https://usegalaxy.fr/",
             "name": "UseGalaxy.fr",
             "usegalaxy": "true"
@@ -1257,6 +1282,11 @@
           }
         ],
         "inexact": [
+          {
+            "url": "https://galaxy.metacentrum.cz/",
+            "name": "MetaCentrum",
+            "usegalaxy": "false"
+          },
           {
             "url": "https://usegalaxy.no/",
             "name": "UseGalaxy.no",
@@ -1479,6 +1509,11 @@
             "usegalaxy": "false"
           },
           {
+            "url": "https://galaxy.metacentrum.cz/",
+            "name": "MetaCentrum",
+            "usegalaxy": "false"
+          },
+          {
             "url": "https://usegalaxy.eu",
             "name": "UseGalaxy.eu",
             "usegalaxy": "true"
@@ -1676,7 +1711,11 @@
           }
         ],
         "inexact": [
-
+          {
+            "url": "https://galaxy.metacentrum.cz/",
+            "name": "MetaCentrum",
+            "usegalaxy": "false"
+          }
         ]
       },
       "topic_name_human": "Transcriptomics",
@@ -2098,6 +2137,11 @@
         ],
         "inexact": [
           {
+            "url": "https://galaxy.metacentrum.cz/",
+            "name": "MetaCentrum",
+            "usegalaxy": "false"
+          },
+          {
             "url": "https://usegalaxy.be/",
             "name": "UseGalaxy.be",
             "usegalaxy": "true"
@@ -2321,6 +2365,11 @@
       "supported_servers": {
         "exact": [
           {
+            "url": "https://galaxy.metacentrum.cz/",
+            "name": "MetaCentrum",
+            "usegalaxy": "false"
+          },
+          {
             "url": "https://usegalaxy.be/",
             "name": "UseGalaxy.be",
             "usegalaxy": "true"
@@ -2500,6 +2549,11 @@
         ],
         "inexact": [
           {
+            "url": "https://galaxy.metacentrum.cz/",
+            "name": "MetaCentrum",
+            "usegalaxy": "false"
+          },
+          {
             "url": "https://usegalaxy.be/",
             "name": "UseGalaxy.be",
             "usegalaxy": "true"
@@ -2665,6 +2719,11 @@
           }
         ],
         "inexact": [
+          {
+            "url": "https://galaxy.metacentrum.cz/",
+            "name": "MetaCentrum",
+            "usegalaxy": "false"
+          },
           {
             "url": "https://usegalaxy.eu",
             "name": "UseGalaxy.eu",
@@ -2885,6 +2944,11 @@
           }
         ],
         "inexact": [
+          {
+            "url": "https://galaxy.metacentrum.cz/",
+            "name": "MetaCentrum",
+            "usegalaxy": "false"
+          },
           {
             "url": "https://usegalaxy.no/",
             "name": "UseGalaxy.no",
@@ -3191,6 +3255,11 @@
           {
             "url": "https://mississippi.sorbonne-universite.fr",
             "name": "MISSISSIPPI",
+            "usegalaxy": "false"
+          },
+          {
+            "url": "https://galaxy.metacentrum.cz/",
+            "name": "MetaCentrum",
             "usegalaxy": "false"
           },
           {
@@ -4803,6 +4872,11 @@
         ],
         "inexact": [
           {
+            "url": "https://galaxy.metacentrum.cz/",
+            "name": "MetaCentrum",
+            "usegalaxy": "false"
+          },
+          {
             "url": "https://usegalaxy.be/",
             "name": "UseGalaxy.be",
             "usegalaxy": "true"
@@ -5322,6 +5396,11 @@
           }
         ],
         "inexact": [
+          {
+            "url": "https://galaxy.metacentrum.cz/",
+            "name": "MetaCentrum",
+            "usegalaxy": "false"
+          },
           {
             "url": "https://usegalaxy.eu",
             "name": "UseGalaxy.eu",
