@@ -222,11 +222,6 @@
         ],
         "inexact": [
           {
-            "url": "https://usegalaxy.cz/",
-            "name": "UseGalaxy.cz",
-            "usegalaxy": "true"
-          },
-          {
             "url": "https://usegalaxy.eu",
             "name": "UseGalaxy.eu",
             "usegalaxy": "true"
@@ -576,11 +571,6 @@
             "url": "https://mississippi.sorbonne-universite.fr",
             "name": "MISSISSIPPI",
             "usegalaxy": "false"
-          },
-          {
-            "url": "https://usegalaxy.cz/",
-            "name": "UseGalaxy.cz",
-            "usegalaxy": "true"
           },
           {
             "url": "https://usegalaxy.eu",
@@ -1003,11 +993,6 @@
             "usegalaxy": "true"
           },
           {
-            "url": "https://usegalaxy.cz/",
-            "name": "UseGalaxy.cz",
-            "usegalaxy": "true"
-          },
-          {
             "url": "https://usegalaxy.no/",
             "name": "UseGalaxy.no",
             "usegalaxy": "true"
@@ -1268,11 +1253,6 @@
             "url": "https://galaxy.mesocentre.uca.fr",
             "name": "Galaxy@AuBi",
             "usegalaxy": "false"
-          },
-          {
-            "url": "https://usegalaxy.cz/",
-            "name": "UseGalaxy.cz",
-            "usegalaxy": "true"
           },
           {
             "url": "https://usegalaxy.fr/",
@@ -1606,11 +1586,6 @@
           }
         ],
         "inexact": [
-          {
-            "url": "https://usegalaxy.cz/",
-            "name": "UseGalaxy.cz",
-            "usegalaxy": "true"
-          },
           {
             "url": "https://usegalaxy.fr/",
             "name": "UseGalaxy.fr",

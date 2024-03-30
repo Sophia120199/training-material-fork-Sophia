@@ -357,11 +357,6 @@
         ],
         "inexact": [
           {
-            "url": "https://usegalaxy.cz/",
-            "name": "UseGalaxy.cz",
-            "usegalaxy": "true"
-          },
-          {
             "url": "https://usegalaxy.fr/",
             "name": "UseGalaxy.fr",
             "usegalaxy": "true"
@@ -664,11 +659,6 @@
           }
         ],
         "inexact": [
-          {
-            "url": "https://usegalaxy.cz/",
-            "name": "UseGalaxy.cz",
-            "usegalaxy": "true"
-          },
           {
             "url": "https://usegalaxy.no/",
             "name": "UseGalaxy.no",
@@ -1057,11 +1047,7 @@
           }
         ],
         "inexact": [
-          {
-            "url": "https://usegalaxy.cz/",
-            "name": "UseGalaxy.cz",
-            "usegalaxy": "true"
-          }
+
         ]
       },
       "topic_name_human": "Imaging",
