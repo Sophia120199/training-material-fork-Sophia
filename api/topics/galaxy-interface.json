@@ -230,6 +230,11 @@
         ],
         "inexact": [
           {
+            "url": "https://mississippi.sorbonne-universite.fr",
+            "name": "MISSISSIPPI",
+            "usegalaxy": "false"
+          },
+          {
             "url": "https://usegalaxy.fr/",
             "name": "UseGalaxy.fr",
             "usegalaxy": "true"
@@ -552,7 +557,11 @@
           }
         ],
         "inexact": [
-
+          {
+            "url": "https://mississippi.sorbonne-universite.fr",
+            "name": "MISSISSIPPI",
+            "usegalaxy": "false"
+          }
         ]
       },
       "topic_name_human": "Using Galaxy and Managing your Data",
@@ -756,7 +765,11 @@
           }
         ],
         "inexact": [
-
+          {
+            "url": "https://mississippi.sorbonne-universite.fr",
+            "name": "MISSISSIPPI",
+            "usegalaxy": "false"
+          }
         ]
       },
       "topic_name_human": "Using Galaxy and Managing your Data",
@@ -1092,6 +1105,11 @@
           {
             "url": "https://galaxy.mesocentre.uca.fr",
             "name": "Galaxy@AuBi",
+            "usegalaxy": "false"
+          },
+          {
+            "url": "https://mississippi.sorbonne-universite.fr",
+            "name": "MISSISSIPPI",
             "usegalaxy": "false"
           },
           {
@@ -3229,6 +3247,11 @@
           {
             "url": "https://galaxy.hyphy.org/",
             "name": "HyPhy HIV NGS Tools",
+            "usegalaxy": "false"
+          },
+          {
+            "url": "https://mississippi.sorbonne-universite.fr",
+            "name": "MISSISSIPPI",
             "usegalaxy": "false"
           },
           {
