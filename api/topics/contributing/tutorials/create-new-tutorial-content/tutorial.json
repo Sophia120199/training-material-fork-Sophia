@@ -53,11 +53,6 @@
   "supported_servers": {
     "exact": [
       {
-        "url": "https://cpt.tamu.edu/galaxy-public/",
-        "name": "Center for Phage Technology (CPT)",
-        "usegalaxy": "false"
-      },
-      {
         "url": "https://usegalaxy.cz/",
         "name": "UseGalaxy.cz",
         "usegalaxy": "true"
@@ -103,10 +98,6 @@
         "url": "https://mississippi.sorbonne-universite.fr",
         "name": "MISSISSIPPI",
         "usegalaxy": "false"
-      },
-      {
-        "url": "https://galaxy.bio.di.uminho.pt/",
-        "name": "PhagePromotor"
       }
     ]
   },
