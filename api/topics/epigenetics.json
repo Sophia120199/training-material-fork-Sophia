@@ -214,7 +214,11 @@
       ],
       "supported_servers": {
         "exact": [
-
+          {
+            "url": "https://usegalaxy.be/",
+            "name": "UseGalaxy.be",
+            "usegalaxy": "true"
+          }
         ],
         "inexact": [
           {
@@ -546,6 +550,11 @@
       ],
       "supported_servers": {
         "exact": [
+          {
+            "url": "https://usegalaxy.be/",
+            "name": "UseGalaxy.be",
+            "usegalaxy": "true"
+          },
           {
             "url": "https://usegalaxy.fr/",
             "name": "UseGalaxy.fr",
@@ -888,7 +897,11 @@
       ],
       "supported_servers": {
         "exact": [
-
+          {
+            "url": "https://usegalaxy.be/",
+            "name": "UseGalaxy.be",
+            "usegalaxy": "true"
+          }
         ],
         "inexact": [
           {
@@ -1123,6 +1136,11 @@
             "url": "https://galaxy.hyphy.org/",
             "name": "HyPhy HIV NGS Tools",
             "usegalaxy": "false"
+          },
+          {
+            "url": "https://usegalaxy.be/",
+            "name": "UseGalaxy.be",
+            "usegalaxy": "true"
           },
           {
             "url": "https://usegalaxy.cz/",
@@ -1551,7 +1569,11 @@
       ],
       "supported_servers": {
         "exact": [
-
+          {
+            "url": "https://usegalaxy.be/",
+            "name": "UseGalaxy.be",
+            "usegalaxy": "true"
+          }
         ],
         "inexact": [
           {
