@@ -138,6 +138,11 @@
       "supported_servers": {
         "exact": [
           {
+            "url": "https://usegalaxy.be/",
+            "name": "UseGalaxy.be",
+            "usegalaxy": "true"
+          },
+          {
             "url": "https://usegalaxy.eu",
             "name": "UseGalaxy.eu",
             "usegalaxy": "true"
@@ -157,6 +162,11 @@
           {
             "url": "https://usegalaxy.no/",
             "name": "UseGalaxy.no",
+            "usegalaxy": "true"
+          },
+          {
+            "url": "https://usegalaxy.org.au",
+            "name": "UseGalaxy.org.au",
             "usegalaxy": "true"
           }
         ]
@@ -420,6 +430,11 @@
         ],
         "inexact": [
           {
+            "url": "https://usegalaxy.be/",
+            "name": "UseGalaxy.be",
+            "usegalaxy": "true"
+          },
+          {
             "url": "https://usegalaxy.no/",
             "name": "UseGalaxy.no",
             "usegalaxy": "true"
@@ -633,6 +648,11 @@
       "supported_servers": {
         "exact": [
           {
+            "url": "https://usegalaxy.be/",
+            "name": "UseGalaxy.be",
+            "usegalaxy": "true"
+          },
+          {
             "url": "https://usegalaxy.no/",
             "name": "UseGalaxy.no",
             "usegalaxy": "true"
@@ -838,6 +858,11 @@
       "supported_servers": {
         "exact": [
           {
+            "url": "https://usegalaxy.be/",
+            "name": "UseGalaxy.be",
+            "usegalaxy": "true"
+          },
+          {
             "url": "https://usegalaxy.eu",
             "name": "UseGalaxy.eu",
             "usegalaxy": "true"
@@ -852,6 +877,11 @@
           {
             "url": "https://usegalaxy.no/",
             "name": "UseGalaxy.no",
+            "usegalaxy": "true"
+          },
+          {
+            "url": "https://usegalaxy.org.au",
+            "name": "UseGalaxy.org.au",
             "usegalaxy": "true"
           }
         ]
@@ -1028,6 +1058,11 @@
           {
             "url": "https://usegalaxy.eu",
             "name": "UseGalaxy.eu",
+            "usegalaxy": "true"
+          },
+          {
+            "url": "https://usegalaxy.org.au",
+            "name": "UseGalaxy.org.au",
             "usegalaxy": "true"
           }
         ],
