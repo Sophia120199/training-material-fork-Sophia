@@ -1,24 +1,3 @@
 [
-  {
-    "": "0",
-    "note": "4",
-    "pro": null,
-    "con": null,
-    "anonymous": null,
-    "tutorial": "3: RNA-seq genes to pathways",
-    "topic": "Transcriptomics",
-    "month": "2024-06",
-    "date": "2024-06-11"
-  },
-  {
-    "": "1",
-    "note": "5",
-    "pro": "examples and step by step guide",
-    "con": null,
-    "anonymous": null,
-    "tutorial": "Introduction to Genomics and Galaxy",
-    "topic": "Introduction to Galaxy Analyses",
-    "month": "2024-09",
-    "date": "2024-09-05"
-  }
+
 ]
